@@ -72,7 +72,7 @@ public class Main {
             String ieeeHex = binaryToHex(ieeeBinary);
             System.out.println("8. Final IEEE 754 Representation:");
             System.out.println(" " + signBit + " " + exponentBinary + " " + mantissa);
-            System.out.println("9. IEEE 754 Hexadecimal Representation: 0x" + ieeeHex);
+            System.out.println("9. IEEE 754 Hexadecimal Representation: " + ieeeHex);
             sc.close();
         }
     }
